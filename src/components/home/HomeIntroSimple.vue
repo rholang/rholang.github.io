@@ -7,9 +7,9 @@
         <span>Rholang is a</span>
         <transition-group name="rotate" class="intro__keywords">
           <div v-show="currentText == 0" key="0">new concurrent language</div>
-          <div v-show="currentText == 1" key="1">performant langugage</div>
-          <div v-show="currentText == 2" key="2">blockchain langugage</div>
-          <div v-show="currentText == 3" key="3">langugage for distributed computing</div>
+          <div v-show="currentText == 1" key="1">performant language</div>
+          <div v-show="currentText == 2" key="2">blockchain language</div>
+          <div v-show="currentText == 3" key="3">language for distributed computing</div>
           <div v-show="currentText == 4" key="4">community language</div>
         </transition-group>
       </h1>
