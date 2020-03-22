@@ -10,6 +10,15 @@ We deliver RNode software in a variety of installation packages. Installation pa
 
 #### Install JDK (Java)
 
+###### Check for java 11
+```
+? java --version
+openjdk 11.0.6 2020-01-14
+OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode, sharing)
+```
+If you do not have java 11 install it as follows.
+
 ```sh
 sudo apt-get update
 sudo apt-get install -y software-properties-common
