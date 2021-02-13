@@ -27,7 +27,7 @@
 					v-for="({ node }, index) in $static.examples.edges" 
 					v-if="index == current" 
 					:key="index">
-					<div v-html="node.content" />
+                                  <ExampleTry v-bind:pretty="node.content" />
 				</div>
 			</transition>
 		</div>
@@ -35,7 +35,12 @@
 </template>
 
 <script>
+import ExampleTry from './ExampleTry';
+
 export default {
+       components: {
+                   ExampleTry
+                   },
 	data() {
 		return {
 			current: 0
