@@ -27,7 +27,7 @@ Another way to run rholang code is to start up your own local RNode and use its 
 
 ##### 1. REPL
 
-the following chapter provides you with the information for setting up REPL with docker for windows. If you don't want to use docker or windows, this is also possible and you just have to change the commands slidely.
+the following chapter provides you with the information for setting up REPL with docker for windows. If you don't want to use docker or windows, this is also possible and you just have to change the commands sleightly.
 
 ##### 1.1 Requirements
 
